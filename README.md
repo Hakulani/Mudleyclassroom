@@ -22,8 +22,7 @@ create_limit_sell_order
 create_market_buy_order
 create_market_sell_order
 ตัวอย่างการตั้ง sell limit
-
-https://www.facebook.com/B2SpetsnazClub/photos/pcb.662700660976820/662697964310423
+![103184741_662697967643756_1725929051651684482_n](https://user-images.githubusercontent.com/61573397/121045774-09720080-c7e0-11eb-9fd9-96324d79edbc.png)
 ftx.create_order('BNB/USD','limit','sell',0.5,20)
 
 เรียกดู orders ที่ส่งไป
