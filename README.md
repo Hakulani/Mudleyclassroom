@@ -35,7 +35,7 @@ ftx = ccxt.ftx({
  'secret': '.................'}) # API Secret
  ```
 <h2> Usage</h2>
- ntro
+Intro
 The CCXT library consists of a public part and a private part. Anyone can use the public part immediately after installation. Public APIs provide unrestricted access to public information for all exchange markets without the need to register a user account or have an API key.
 
 Public APIs include the following:
@@ -113,30 +113,6 @@ Teerachai Rattanabunditsakul
 Nattapon Soomtha (กองทุนความมั่งคั่งแห่งชาติ Training)
 B2 spetsnaz club
 
-
-
-
-
-
-
-
-
-
-
-
-CCXT – CryptoCurrency eXchange Trading Library
-A JavaScript / Python / PHP library for cryptocurrency trading and e-commerce with support for many bitcoin/ether/altcoin exchange markets and merchant APIs.
-
-Install · Usage · Manual · FAQ · Examples · Contributing · Social · CCXT Pro
-The CCXT library is used to connect and trade with cryptocurrency exchanges and payment processing services worldwide. It provides quick access to market data for storage, analysis, visualization, indicator development, algorithmic trading, strategy backtesting, bot programming, and related software engineering.
-
-It is intended to be used by coders, developers, technically-skilled traders, data-scientists and financial analysts for building trading algorithms.
-
-Current feature list:
-
-support for many cryptocurrency exchanges — more coming soon
-fully implemented public and private APIs
-optional normalized data for cross-exchange analytics and arbitrage
-an out of the box unified API that is extremely easy to integrate
-works in Node 7.6+, Python 3, PHP 5.4+, and web browsers
-https://github.com/ccxt/ccxt
+<h5>Contributing</h5>
+Please read the [CONTRIBUTING](https://github.com/ccxt/ccxt/blob/master/CONTRIBUTING.md)
+document before making changes that you would like adopted in the code. Also, read the [Manual](https://github.com/ccxt/ccxt/wiki) for more details.
