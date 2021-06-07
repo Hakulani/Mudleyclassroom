@@ -108,11 +108,13 @@ my_open_orders.to_csv('my_csv.csv', mode='a', header=False)
 ```
 
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
-ขอขอบคุณ
-Teerachai Rattanabunditsakul
-Nattapon Soomtha (กองทุนความมั่งคั่งแห่งชาติ Training)
-B2 spetsnaz club
+<br>ขอขอบคุณ</br>
+- Teerachai Rattanabunditsakul
+- Nattapon Soomtha (กองทุนความมั่งคั่งแห่งชาติ Training)
+- B2 spetsnaz club
 
 <h5>Contributing</h5>
-Please read the [CONTRIBUTING](https://github.com/ccxt/ccxt/blob/master/CONTRIBUTING.md)
-document before making changes that you would like adopted in the code. Also, read the [Manual](https://github.com/ccxt/ccxt/wiki) for more details.
+Please read the 
+
+[CONTRIBUTING](https://github.com/ccxt/ccxt/blob/master/CONTRIBUTING.md) document before making changes that you would like adopted in the code. Also, read the 
+[Manual](https://github.com/ccxt/ccxt/wiki)for more details.
