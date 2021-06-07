@@ -12,6 +12,20 @@ support for many cryptocurrency exchanges — more coming soon fully implemented
 
 
 พอลง anaconda แล้วเปิด jupytor เลยครับอย่าลืมติดตั้ง ccxt ก่อนนะครับ
+
+<h1>Install</h1>
+
+Python
+ccxt in PyPI
+
+pip install ccxt
+import ccxt
+print(ccxt.exchanges) # print a list of all available exchange classes
+The library supports concurrent asynchronous mode with asyncio and async/await in Python 3.5.3+
+
+import ccxt.async_support as ccxt # link against the asynchronous version of ccxt
+
+
 pip install ccxt
 ```
 import ccxt
