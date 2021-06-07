@@ -28,20 +28,30 @@ create_market_sell_order
 ```
 ตัวอย่างการตั้ง sell limit
 ![103184741_662697967643756_1725929051651684482_n](https://user-images.githubusercontent.com/61573397/121045774-09720080-c7e0-11eb-9fd9-96324d79edbc.png)
-```ftx.create_order('BNB/USD','limit','sell',0.5,20) ```
+```
+ftx.create_order('BNB/USD','limit','sell',0.5,20) 
+```
 
 เรียกดู orders ที่ส่งไป
-```my_open_orders = ftx.fetch_open_orders('BNB/USD')```
+```
+my_open_orders = ftx.fetch_open_orders('BNB/USD')
+```
 
 ใช้ pandas เรียบเรียงให้ดูได้ด้วย pd.DataFrame
-``` my_open_orders = pd.DataFrame(ftx.fetch_open_orders('BNB/USD')
-display(my_open_orders)```
+``` 
+my_open_orders = pd.DataFrame(ftx.fetch_open_orders('BNB/USD')
+display(my_open_orders)
+```
 
 ยกเลิกคำสั่ง order นั้นๆด้วย id
-```ftx.cancel_order(id) ```
+```
+ftx.cancel_order(id) 
+```
 จัดเก็บ order ที่ส่งเข้าตลาดด้วย pandas 
 ต้องทำความเข้าใจตัว .to_csv() ของ pandas ด้วยนะครับนี่เป็นตัวอย่างคร่าวๆ
-```my_open_orders.to_csv('my_csv.csv', mode='a', header=False)```
+```
+my_open_orders.to_csv('my_csv.csv', mode='a', header=False)
+```
 
 https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_csv.html
 ขอขอบคุณ
