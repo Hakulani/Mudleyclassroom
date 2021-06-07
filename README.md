@@ -114,7 +114,5 @@ https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.to_c
 - B2 spetsnaz club
 
 <h5>Contributing</h5>
-Please read the 
-
-[CONTRIBUTING](https://github.com/ccxt/ccxt/blob/master/CONTRIBUTING.md) document before making changes that you would like adopted in the code. Also, read the 
+Please read the  [CONTRIBUTING](https://github.com/ccxt/ccxt/blob/master/CONTRIBUTING.md) document before making changes that you would like adopted in the code. Also, read the 
 [Manual](https://github.com/ccxt/ccxt/wiki)for more details.
