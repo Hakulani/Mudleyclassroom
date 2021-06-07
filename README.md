@@ -1,5 +1,14 @@
 # Mudleyclassroom
 Use API for connect to Exchange trading , CCXT – CryptoCurrency eXchange Trading Library
+CCXT – CryptoCurrency eXchange Trading Library A JavaScript / Python / PHP library for cryptocurrency trading and e-commerce with support for many bitcoin/ether/altcoin exchange markets and merchant APIs.
+
+Install · Usage · Manual · FAQ · Examples · Contributing · Social · CCXT Pro The CCXT library is used to connect and trade with cryptocurrency exchanges and payment processing services worldwide. It provides quick access to market data for storage, analysis, visualization, indicator development, algorithmic trading, strategy backtesting, bot programming, and related software engineering.
+
+It is intended to be used by coders, developers, technically-skilled traders, data-scientists and financial analysts for building trading algorithms.
+
+Current feature list:
+
+support for many cryptocurrency exchanges — more coming soon fully implemented public and private APIs optional normalized data for cross-exchange analytics and arbitrage an out of the box unified API that is extremely easy to integrate works in Node 7.6+, Python 3, PHP 5.4+, and web browsers https://github.com/ccxt/ccxt
 
 
 พอลง anaconda แล้วเปิด jupytor เลยครับอย่าลืมติดตั้ง ccxt ก่อนนะครับ
